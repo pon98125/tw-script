@@ -1,7 +1,5 @@
 #! /bin/bash
 
-shopt -s expand_aliases
-
 alias kpod='kubectl get pod -A -o wide'
 alias knode='kubectl get node -o wide'
 alias kdep='kubectl get deployment -A'
