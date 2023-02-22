@@ -7,3 +7,4 @@ alias kall='kubectl get all -A'
 alias khpa='kubectl get hpa -A'
 alias kdes='kubectl describe'
 alias kget='kubectl get'
+echo "tw-script run complete"
