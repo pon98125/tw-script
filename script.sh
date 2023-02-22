@@ -1,4 +1,5 @@
 #! /bin/bash
+shopt -s expand_aliases
 
 echo "alias kpod='kubectl get pod -A -o wide'"
 echo "alias knode='kubectl get node -o wide'"
